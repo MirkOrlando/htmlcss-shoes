@@ -70,12 +70,13 @@
 }
 
 .product.image {
-    height: 400px;
+    height: 415px;
 }
 
 .description {
     text-transform: uppercase;
     color: #FFFF00;
+    font-size: 38px;
 }
 
 #yellow .description {
