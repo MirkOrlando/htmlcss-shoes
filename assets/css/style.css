@@ -1,5 +1,59 @@
+/* common */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#site-structure {
+    width: 1250px;
+    margin: auto;
+}
+
+/* utility */
+
+.relative {
+    position: relative;
+}
+
+/***********
+  #site-main
+  ***********/
+
+/* .container.shoe */
+
+.container.shoe {
+    height: 100vh;
+    text-align: center;
+}
+
+#red {
+    background-color: #FF0000;
+}
+
+#green {
+    background-color: #008000;
+}
+
+#yellow {
+    background-color: #FFFF00;
+}
+
+/* .container.product */
+
+.container.product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product.image {
+    height: 350px;
+}
+
+.description {
+    text-transform: uppercase;
+    color: #FFFF00;
 }
