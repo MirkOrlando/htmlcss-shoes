@@ -6,12 +6,16 @@
     box-sizing: border-box;
 }
 
-#site-structure {
+html {
+    scroll-behavior: smooth;
+}
+
+/* #site-structure {
     width: 1250px;
     margin: auto;
     font-family: 'Rubik Mono One', sans-serif;
 }
-
+ */
 /* utility */
 
 .relative {
@@ -25,8 +29,10 @@
 /* #products-nav */
 
 #products-nav {
-    text-align: right;
-    padding: 2rem 1rem 0;
+    position: fixed;
+    top: 2rem;
+    right: 1rem;
+    z-index: 1;
 }
 
 .label {
@@ -39,6 +45,7 @@
     text-align: center;
     line-height: 2.5rem;
     vertical-align: middle;
+    box-shadow: 0 0 0 #5a5a5a78;
 }
 
 /* .container.shoe */
